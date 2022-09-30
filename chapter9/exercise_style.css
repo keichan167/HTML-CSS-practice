@@ -1,0 +1,68 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 50px;
+    background-color: #FF9A4B;
+}
+
+main {
+    width: 960px;
+    margin: 50px auto;
+    display:flex;
+}
+
+.process_container {
+    width: 300px;
+    margin-right: 30px;
+    padding: 10px;
+    background-color:  #EEEEEE;
+    position: relative;
+}
+
+.process_container:last-child {
+    margin-right: 0;
+}
+
+.step_number {
+    background-color: #FF9A4B;
+    color:white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.process_image1 {
+    height: 150px;
+    background-image: url(img/flow01.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.process_image2 {
+    height: 150px;
+    background-image: url(img/flow02.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.process_image3 {
+    height: 150px;
+    background-image: url(img/flow03.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.sentence_title {
+    padding: 15px 0 5px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #AAAAAA;
+}
